@@ -1,0 +1,19 @@
+setenv PATH ~/.linuxbrew/opt/node@10/bin:$PATH
+setenv PATH ~/.linuxbrew/sbin:$PATH
+setenv PATH ~/.linuxbrew/bin:$PATH
+setenv PATH ~/.vscode/bin:$PATH
+setenv PATH ~/.local/bin:$PATH
+setenv PKG_CONFIG_PATH ~/.linuxbrew/lib/pkgconfig/
+
+alias dvipdfmx dvipdfmx -V 4
+alias vim micro
+alias nano micro
+setenv EDITOR micro
+
+setenv USER user
+setenv HOST localhost
+setenv HOSTNAME localhost
+
+# scp できなくなるのでいったんコメントアウト
+# exec fish
+
