@@ -14,6 +14,7 @@ setenv USER user
 setenv HOST localhost
 setenv HOSTNAME localhost
 
-# scp できなくなるのでいったんコメントアウト
-# exec fish
-
+[ ! -t 0 ]
+if ($?) then
+  exec fish
+endif
